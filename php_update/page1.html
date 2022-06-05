@@ -1,0 +1,38 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="page1.css" />
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=PT+Sans:ital@0;1&display=swap");
+    </style>
+    <title>Application Form</title>
+  </head>
+  <body>
+    <div class="container">
+      <form
+        action="http://localhost/php_programs/php_update/page1.php"
+        method="post"
+      >
+        <div class="title">
+          <p>Only Registered Candidates Sign in</p>
+        </div>
+        <div>
+          <label for="app_no">Application Number</label>
+          <input type="number" name="app_no" id="app_no" />
+        </div>
+        <div>
+          <label for="password">Password</label>
+          <input type="password" name="password" id="password" />
+        </div>
+        <div>
+          <button type="submit" class="submit">Sign In</button>
+        </div>
+      </form>
+      <a href="http://localhost/php_programs/php_update/ppp.php"
+        >New User ? : Fill the Form</a
+      >
+    </div>
+  </body>
+</html>
